@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/kounkou/skimmer.svg?branch=master)](https://travis-ci.com/kounkou/skimmer)
 
 # Why ?
 Skimmer is a simple tool to list the files inside a directory in a recursive manner.
