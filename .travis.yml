@@ -1,4 +1,8 @@
-language: perl
-install:
-  - cpanm -f -n $(cat .perlmodules | tr "\n" " ")
-  script: perl tests/tools.t
+sudo: false
+-dist: trusty	
+-language: perl	
+script:	 script:
+  - perl tests/tools.t
+perl:	 perl:
+  - "5.18"
+  - "5.20"
