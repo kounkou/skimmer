@@ -26,7 +26,7 @@ $ perl main.pl .
 ```
 
 # License
-Apache-2.0 See [LICENSE](https://github.com/kounkou/skimmer.git/master/LICENSE) for details.
+Apache-2.0 See [LICENSE](https://github.com/kounkou/skimmer/blob/master/LICENSE) for details.
 
 # Team
 If you have any question about the project or anything that comes to your mind,
