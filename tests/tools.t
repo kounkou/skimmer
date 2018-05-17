@@ -6,16 +6,20 @@
 #
 #/////////////////////////////////////////////////////////////////////////////
 
-use diagnostics;
-use warnings;
 use strict;
-use Test::More tests => 1;
+use Test::More;
 use lib '../', '.';
+
+BEGIN {
+   plan tests => 3, 
+        todo  => [1, 3]
+}
 
 require Tools::Lister;
 
-my $obj1 = Lister->new();
+my $obj = Lister->new();
 
 can_ok("Lister", 'new');
-
+can_ok("Lister", 'fill');
+can_ok("Lister", 'disp');
 
