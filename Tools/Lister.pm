@@ -15,6 +15,16 @@ package Lister; # namespace  {
 
 my @arrListerNode;
 
+# simple constructor
+sub new {
+   if (@_) {
+      my $class = shift @_;
+      return bless { 
+	 "" => undef 
+      }, $class;
+   }
+}
+
 # Function to fill the array with the different
 # token obtained from the upper level call
 sub fill {
