@@ -1,7 +1,8 @@
-language: perl
-perl:
-  - "5.24"
-  - "5.22"
-  - "5.20"
+sudo: false
 
+language: perl
 install:
+  /bin/true
+
+script:
+  perl tests/*.t
