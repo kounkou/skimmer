@@ -1,4 +1,8 @@
 sudo: false
-language: perl	
-script:	 script:
-  - perl tests/tools.t
+
+language: perl
+install:
+  /bin/true
+
+script:
+  perl tests/*.t
