@@ -3,8 +3,10 @@ sudo: false
 language: perl
 install:
    - yes | cpan install Module::Build
-   - perl Build.PL manifest
+   - perl Build manifest
    - perl Build.PL
+   - ./Build
+   - ./Build test
 
 script:
    - ls -ltr
