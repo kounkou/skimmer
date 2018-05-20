@@ -1,8 +1,8 @@
 sudo: false
--dist: trusty	
--language: perl	
-script:	 script:
-  - perl tests/tools.t
-perl:	 perl:
-  - "5.18"
-  - "5.20"
+
+language: perl
+install:
+  /bin/true
+
+script:
+  perl tests/*.t
