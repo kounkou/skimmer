@@ -2,7 +2,9 @@ sudo: false
 
 language: perl
 install:
-  /bin/true
+   ./Build clean
+   ./Build
+   ./Build install
 
 script:
-  perl tests/*.t
+   ./Build test
