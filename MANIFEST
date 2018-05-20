@@ -1,0 +1,10 @@
+.travis.yml
+Build.PL
+lib/Skimmer.pm
+lib/skimmer.pm
+lib/Tree.pm
+LICENSE
+main.pl
+MANIFEST			This list of files
+README.md
+t/base_cases.t

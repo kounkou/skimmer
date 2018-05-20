@@ -2,7 +2,11 @@ sudo: false
 
 language: perl
 install:
-  /bin/true
+   - yes | cpan install Module::Build
+   - perl Build.PL
+   - ./Build manifest
+   - ./Build
+   - ./Build test
 
 script:
-  perl tests/*.t
+   - ls -ltr
