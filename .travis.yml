@@ -7,7 +7,4 @@ install:
    perl Build.PL
 
 script:
-   ./Build clean
-   ./Build
-   ./Build install
    ./Build test
