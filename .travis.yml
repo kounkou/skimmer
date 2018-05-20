@@ -2,7 +2,7 @@ sudo: false
 
 language: perl
 install:
-   cpan -f -i Module::Build
+   cpan -e 'install Module::Build'
    perl Build.PL manifest
    perl Build.PL
 
