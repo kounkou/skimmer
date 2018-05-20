@@ -10,17 +10,16 @@ use strict;
 use Test::More;
 use lib '../', '.';
 
+require Tools::Lister;
+
 BEGIN {
    plan tests => 4,
         todo  => [1, 4]
 }
 
-require Tools::Lister;
-
 my $obj = Lister->new();
 
 require_ok "Tools::Lister";
-
 can_ok("Lister", 'new');
 can_ok("Lister", 'fill');
 can_ok("Lister", 'disp');

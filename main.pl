@@ -39,7 +39,16 @@ sub traverse {
    close $handle;
 }
 
+### creating tree function
+sub createTree {
+  my $obj = Tree::new(); 
+
+  $obj->Tree::addNode(1, 2, 3); # root, left and right
+  $obj->Tree::print();
+}
+
 # main program entry point
 main(@ARGV);
+# createTree();
 Lister::disp();
 
