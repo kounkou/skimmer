@@ -1,5 +1,6 @@
 .travis.yml
 Build.PL
+lib/Skimmer.pm
 lib/skimmer.pm
 lib/Tree.pm
 LICENSE

@@ -3,7 +3,7 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-   module_name         => 'skimmer',
+   module_name         => 'Skimmer',
    license             => 'perl',
    dist_author         => 'Godfrain Jacques KOUNKOU <gkounkou@gmail.com>',
    dist_abstract       => 'Educational purpose skimmer implementation',

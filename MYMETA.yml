@@ -10,7 +10,12 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
-name: skimmer
+name: Skimmer
+provides:
+  Skimmer:
+    file: lib/Skimmer.pm
+  Tree:
+    file: lib/Tree.pm
 resources:
   license: http://dev.perl.org/licenses/
 version: '0'

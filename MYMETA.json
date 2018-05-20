@@ -12,12 +12,20 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "skimmer",
+   "name" : "Skimmer",
    "prereqs" : {
       "build" : {
          "requires" : {
             "Test::More" : "0.47"
          }
+      }
+   },
+   "provides" : {
+      "Skimmer" : {
+         "file" : "lib/Skimmer.pm"
+      },
+      "Tree" : {
+         "file" : "lib/Tree.pm"
       }
    },
    "release_status" : "stable",
