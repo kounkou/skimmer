@@ -1,0 +1,31 @@
+{
+   "abstract" : "Educational purpose skimmer implementation",
+   "author" : [
+      "Godfrain Jacques KOUNKOU <gkounkou@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4224",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "skimmer",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.47"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0",
+   "x_serialization_backend" : "JSON::PP version 2.27300_01"
+}

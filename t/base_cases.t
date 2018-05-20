@@ -10,16 +10,16 @@ use strict;
 use Test::More;
 use lib '../', '.';
 
-require Tools::Lister;
+require lib::Skimmer;
 
 BEGIN {
    plan tests => 4,
         todo  => [1, 4]
 }
 
-my $obj = Lister->new();
+my $obj = Skimmer->new();
 
-require_ok "Tools::Lister";
-can_ok("Lister", 'new');
-can_ok("Lister", 'fill');
-can_ok("Lister", 'disp');
+require_ok "lib::Skimmer";
+can_ok("Skimmer", 'new');
+can_ok("Skimmer", 'fill');
+can_ok("Skimmer", 'disp');

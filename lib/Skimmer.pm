@@ -9,7 +9,7 @@
 use strict;
 use lib '.';
 
-package Lister; # namespace  {
+package Skimmer; # namespace  {
 
 # print "Inside the Tools::Lister.pm module\n"; 
 
