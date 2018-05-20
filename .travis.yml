@@ -7,4 +7,4 @@ install:
    perl Build.PL
 
 script:
-   ./Build test
+   ls -ltr
