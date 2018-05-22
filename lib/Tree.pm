@@ -7,7 +7,7 @@ package Tree;
 
 my %tree = (
    value => 0,
-   l     => undef,
+   l     => undef, # pointing to nothing
    r     => undef
 );
 
